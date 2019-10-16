@@ -4,6 +4,19 @@
 </head>
 <body>
   <script>
+    function computerPlay() {
+      let selection = Math.floor(Math.random()*3);
+      switch (selection){
+        case 0: selection="rock"
+        break;
+        case 1: selection="paper"
+        break;
+        case 2: selection="scissors"
+        break;
+      }
+      console.log(selection);
+    }
+    computerPlay();
   </script>
 </body>
 </html>
