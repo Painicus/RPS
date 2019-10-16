@@ -33,7 +33,7 @@
         return winner = "The game is tied.";
         }
       }
-    const player = "rock";
+    let player = prompt("Rock, Paper, or Scissors?", "rock").toLowerCase();
     const computer = computerPlay();
     console.log(roundRPS(player, computer));
   </script>
