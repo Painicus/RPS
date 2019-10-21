@@ -1,0 +1,21 @@
+.button {
+  padding: 10px;
+  color: red;
+  border-radius: 3px;
+  margin-right:5px;
+  font-weight:bold;
+  font-family:Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+#Results {
+  font-size:15px;
+  font-family: Helvetica;
+  margin-bottom:10px;
+}
+.header {
+  text-align:center;
+  background-color:green;
+  border-radius:20px;
+  color:white;
+  font-family: Arial;
+}
